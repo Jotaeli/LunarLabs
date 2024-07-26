@@ -9,14 +9,8 @@ html, body {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-}
-
-body {
     background-color: #010012;
-
 }
-
-
 
 #sec1 {
     background-image: url('images/fundoespaco.png');
@@ -93,6 +87,7 @@ body {
 
 #lua {
     position: absolute;
+    width: 173.6rem;
     right: -46%;
     top: 40%;
     animation: rotation 1000s infinite linear;
@@ -113,29 +108,73 @@ body {
     top: 160%;
 }
 
-#imgHero {
-    padding: 10rem;
+#imgRocket {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #rocket {
-    height: 30rem;
+    height: 38rem;
 	animation: float 3s ease-in-out infinite;
     position: absolute;
     z-index: 1;
 }
 
 #glass {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 28rem;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3px );-webkit-backdrop-filter: blur( 3px );
-    border-radius: 50px;
+    border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+#screen22 {
+    display: flex;
+    align-items: center;
+    padding: 13rem;
+    gap: 10rem;
+}
+
+#titleSec2 {
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 5px;
+    gap: 2rem;
+}
+
+#oquefaz {
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+#lunarint {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-top: -5rem;
+    padding-left: 0.3rem;
+}
+
+#iconSec2 {
+    margin-top: 1.6rem;
+    width: 3rem;
+}
+
+#textSec2 {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#textSec2p {
+
+    font-size: 1rem;
+}
+
 
 @keyframes float {
 	0% {
