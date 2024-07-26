@@ -92,6 +92,7 @@ html, body {
     top: 40%;
     animation: rotation 1000s infinite linear;
     pointer-events: none;
+    mask: 100vh;
 }
 
 #sec2 {
@@ -101,6 +102,7 @@ html, body {
 #nuvens {
     position: absolute;
     top: 60%;
+    width: 100vw;
 }
 
 #fundoTemp {
@@ -119,6 +121,7 @@ html, body {
 	animation: float 3s ease-in-out infinite;
     position: absolute;
     z-index: 1;
+    margin-left: 3rem;
 }
 
 #glass {
@@ -131,20 +134,33 @@ html, body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-#screen22 {
+#screen2 {
     display: flex;
     align-items: center;
-    padding: 13rem;
+    justify-content: center;
+    padding: 11rem;
     gap: 10rem;
 }
 
-#titleSec2 {
+#textSec2 {
     z-index: 1;
     color: #ffffff;
     display: flex;
+    flex-direction: column;
     font-family: "Barlow Condensed", sans-serif;
-    letter-spacing: 5px;
-    gap: 2rem;
+    font-weight: 200;
+    margin-top: -4rem;
+}
+
+#titleLunar {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleNIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 1.7rem;
 }
 
 #oquefaz {
@@ -161,7 +177,7 @@ html, body {
 
 #iconSec2 {
     margin-top: 1.6rem;
-    width: 3rem;
+    width: 3.5rem;
 }
 
 #textSec2 {
@@ -170,9 +186,12 @@ html, body {
     flex-direction: column;
 }
 
-#textSec2p {
-
-    font-size: 1rem;
+#paragSec2 {
+    font-size: 1.7rem;
+    letter-spacing: 1.5px;
+    margin-top: -3rem;
+    margin-left: 0.4rem;
+    width: 29rem;
 }
 
 
