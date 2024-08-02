@@ -20,6 +20,8 @@ a {
     color: inherit;
 }
 
+/* __________________________________ */
+
 #lua {
     width: 200rem;
     position: absolute;
@@ -27,6 +29,7 @@ a {
     left: 50%;
     transform: translate(-50%, -2%);
     pointer-events: none;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 20%);
 }
 
 #sec1 {
@@ -135,8 +138,9 @@ a {
     color: #010012;
 }
 
+/* __________________________________ */
+
 #sec2 {
-    background-color: #ffffff;
     pointer-events: none;
 }
 
@@ -145,11 +149,6 @@ a {
     top: 60%;
     width: 100vw;
     pointer-events: none;
-}
-
-#fundoTemp {
-    position: absolute;
-    top: 160%;
 }
 
 #imgRocket {
@@ -185,7 +184,6 @@ a {
 }
 
 #textSec2 {
-    z-index: 1;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -235,6 +233,17 @@ a {
     margin-left: 0.4rem;
     width: 29rem;
 }
+
+/* __________________________________ */
+
+#sec3 {
+    height: 40rem;
+}
+
+#sec3 h1 {
+    color: #ffffff;
+}
+
 
 
 @keyframes float {
